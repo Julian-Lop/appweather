@@ -59,7 +59,7 @@ ul.show li:hover {
     position: relative;
     width: 50%;
     z-index: 1;
-    top: 8vw;
+    top: 75px;
     flex-direction: row;
     display: inline-flex;
     justify-content: space-around;
@@ -67,6 +67,9 @@ ul.show li:hover {
   ul.show li {
     margin: 0px 0 0 0;
     line-height: 0px;
+  }
+  ul.show li:hover {
+    background: none;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
