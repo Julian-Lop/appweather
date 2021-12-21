@@ -2,9 +2,14 @@ import React from "react";
 import './About.css'
 
 export default function About(){
+
+    setTimeout(()=>{
+        document.querySelector('.AboutDisable').className = 'About'
+    }, 1000)
+
     return (
             <div className="contenedorAbout">
-                <div className="About">
+                <div className="AboutDisable">
                     <h3>Info de la página Web del clima</h3>
                     <p>Aplicación que muestra información sobre el clima
                         de ciudades por medio del uso de la Weather Api.

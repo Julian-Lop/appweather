@@ -8,7 +8,8 @@
     border-radius: 30px;
     background: #d5e892;
     box-shadow:  20px 20px 60px 8px #b5c57c,
-                -20px -20px 60px 8px #f5ffa8;;        
+                -20px -20px 60px 8px #f5ffa8;
+    transition: all 1s;                    
 }
 
 .ciudad{
@@ -23,4 +24,16 @@
     justify-content: space-around;
 }
 
-
+.containerDisable{
+    opacity: 0.0;
+    position: relative;
+    top: 5%;
+    height: 250px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    border-radius: 30px;
+    background: #d5e892;
+    box-shadow:  20px 20px 60px 8px #b5c57c,
+                -20px -20px 60px 8px #f5ffa8;;        
+}

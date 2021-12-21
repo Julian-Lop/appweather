@@ -9,6 +9,7 @@
     background: #c8acfb;
     box-shadow:  20px 20px 60px 8px #aa92d5,
                 -20px -20px 60px 8px#e6c6ff;
+    transition: all 1s;
 }
 
 .contenedorAbout{
@@ -32,4 +33,16 @@
     text-align: justify;
 }
 
-
+.AboutDisable{
+    opacity: 0.0;
+    position: relative;
+    top: 5%;
+    height: 500px;
+    width: 250px;
+    padding: 18px;
+    border-radius: 20px;
+    border-radius: 30px;
+    background: #c8acfb;
+    box-shadow:  20px 20px 60px 8px #aa92d5,
+                -20px -20px 60px 8px#e6c6ff;
+}

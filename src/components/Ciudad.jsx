@@ -2,9 +2,12 @@ import React from "react";
 import './Ciudad.css'
 
 export default function Ciudad({city}) {
+    setTimeout(()=>{
+        document.querySelector('.containerDisable').className = 'container'
+    },1000)
     return (
         <div className="ciudad">
-                <div className="container">
+                <div className="containerDisable">
                     <h2>{city.name}</h2>
                     <div className="info">
                         <div>Temperatura: {(city.temp-273.15).toFixed(2)} ºC</div>
